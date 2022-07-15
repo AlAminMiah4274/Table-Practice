@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Practice</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            width: 700px;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 50px;
+        }
+
+        .th-color {
+            background-color: green;
+        }
+
+        .td-color {
+            background-color: skyblue;
+        }
+
+        .another-table {
+            margin-top: 150px;
+        }
+
+        .color {
+            background-color: lightgreen;
+        }
+
+        #nikhil {
+            background-color: aquamarine;
+        }
+
+        #snehal {
+            background-color: olivedrab;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Employee Table</caption>
+        <thead>
+            <tr class="th-color">
+                <th>EmpId</th>
+                <th>EmpName</th>
+                <th>EmpDept</th>
+                <th>EmpSalary</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Joe</td>
+                <td>Development</td>
+                <td>50000</td>
+                <td>USA</td>
+            </tr>
+            <tr class="td-color">
+                <td>102</td>
+                <td>Mary</td>
+                <td>Testing</td>
+                <td>30000</td>
+                <td>Ireland</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Beck</td>
+                <td>Analyst</td>
+                <td>40000</td>
+                <td>England</td>
+            </tr>
+            <tr class="td-color">
+                <td>104</td>
+                <td>Candace</td>
+                <td>Development</td>
+                <td>45000</td>
+                <td>France</td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="another-table">
+        <thead>
+            <tr class="th-color">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ketki</td>
+                <td>Patil</td>
+                <td>28</td>
+                <td class="color">Mumbai</td>
+            </tr>
+            <tr>
+                <td>Devendra</td>
+                <td>Gupta</td>
+                <td>35</td>
+                <td>Delhi</td>
+            </tr>
+            <tr>
+                <td id="nikhil">Nikhil</td>
+                <td>Sabnis</td>
+                <td>49</td>
+                <td>Neral</td>
+            </tr>
+            <tr>
+                <td id="snehal">Snehal</td>
+                <td>Wagh</td>
+                <td>29</td>
+                <td>Nashik</td>
+            </tr>
+            <tr>
+                <td>Gitu</td>
+                <td>Rathi</td>
+                <td>35</td>
+                <td>Kolkata</td>
+            </tr>
+            <tr>
+                <td>Manish</td>
+                <td>Panday</td>
+                <td>28</td>
+                <td>Rajstan</td>
+            </tr>
+            <tr class="color">
+                <td>Dhoni</td>
+                <td>MS</td>
+                <td>40</td>
+                <td>Chennai</td>
+            </tr>
+            <tr class="color">
+                <td>Virat</td>
+                <td>Koholi</td>
+                <td>32</td>
+                <td>Bangaloro</td>
+            </tr>
+            <tr>
+                <td>KL</td>
+                <td>Rahul</td>
+                <td>29</td>
+                <td>Panjab</td>
+            </tr>
+            <tr>
+                <td>Mohammod</td>
+                <td>Siraj</td>
+                <td>28</td>
+                <td>Bangaloro</td>
+            </tr>
+            <tr>
+                <td>Umesh</td>
+                <td>Yadav</td>
+                <td>32</td>
+                <td class="color">Kolkata</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
