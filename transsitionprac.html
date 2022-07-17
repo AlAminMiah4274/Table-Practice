@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Transition</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid blue;
+            background-color: yellowgreen;
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        .box:hover {
+            width: 200px;
+            height: 200px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Transition!</h1>
+    <div class="box">
+        <div>Trasition-1</div>
+    </div>
+    <div class="box">
+        <div>Trasition-2</div>
+    </div>
+    <div class="box">
+        <div>Trasition-3</div>
+    </div>
+</body>
+
+</html>
